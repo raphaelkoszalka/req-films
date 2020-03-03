@@ -1,0 +1,44 @@
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  height: 100% !important;
+}
+
+app-root {
+  height: 100%;
+  overflow: hidden !important;
+}
+
+app-home {
+  height: 100%;
+  overflow: hidden !important;
+}
+
+app-about-us {
+  height: 100%;
+  overflow: hidden !important;
+}
+
+app-portfolio {
+  height: 100%;
+  overflow: hidden !important;
+}
+
+app-contact {
+  height: 100%;
+  overflow: hidden !important;
+}
+
+router-outlet {
+  height: 100%;
+  overflow: hidden !important;
+}
+
+section {
+  height: 100%;
+  overflow: hidden !important;
+}
+
+
+p, h1, h2, h3, h4, h5,  h6 {
+  font-family: 'Open Sans', sans-serif !important;
+}

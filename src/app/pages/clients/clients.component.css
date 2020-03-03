@@ -1,0 +1,24 @@
+section {
+  background: #00416A;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #E4E5E6, #00416A);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #E4E5E6, #00416A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100%;
+  width: 100%;
+  padding-top: 120px;
+}
+
+h1 {
+  font-size: 4em;
+  color: white;
+  font-family: 'Open Sans', sans-serif !important;
+  text-shadow: 1px 1px 1px rgba(2, 2, 2, 0.4);
+}
+
+.client-wrapper {
+  height: 250px;
+  background: #efefef;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  margin-left: 25px;
+}

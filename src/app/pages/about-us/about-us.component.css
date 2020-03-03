@@ -1,0 +1,38 @@
+section {
+  background: #FF416C;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100%;
+  width: 100%;
+  padding-top: 120px;
+}
+
+h1 {
+  font-size: 4em;
+  color: white;
+  font-family: 'Open Sans', sans-serif !important;
+  text-shadow: 1px 1px 1px rgba(2, 2, 2, 0.4);
+}
+
+
+p {
+  color: white;
+}
+
+#about-us-logo {
+  max-height: 450px;
+}
+
+button {
+  text-transform: uppercase;
+  background: #CF4647;
+  color: white;
+  font-size: 1em;
+}
+
+
+button:hover {
+  background: #a53838;
+  color: white;
+  font-size: 1em;
+}
