@@ -9,6 +9,8 @@
     "component-class-suffix": true,
     "contextual-lifecycle": true,
     "directive-class-suffix": true,
+
+    "no-trailing-whitespace": false,
     "directive-selector": [
       true,
       "attribute",

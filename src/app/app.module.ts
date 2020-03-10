@@ -11,7 +11,9 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { MoviesComponent } from './components/movies/movies.component';
-import {AppRoutingModule} from './app.routing.module';
+import { YoutubeComponent } from './components/youtube/youtube.component';
+import { AppRoutingModule } from './app.routing.module';
+import { YouTubePlayerModule } from '@angular/youtube-player';
 
 @NgModule({
   declarations: [
@@ -24,11 +26,13 @@ import {AppRoutingModule} from './app.routing.module';
     ContactComponent,
     PortfolioComponent,
     GalleryComponent,
-    MoviesComponent
+    MoviesComponent,
+    YoutubeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    YouTubePlayerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
